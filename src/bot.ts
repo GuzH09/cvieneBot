@@ -53,9 +53,7 @@ async function tweetPercentage() {
     const tweet = `Se viene en un ${seVienePercentage.toFixed(2)}%.
 Se viene: ${dataFetch.seViene}
 No se viene: ${dataFetch.noSeViene}
-Total: ${total}
-Fuente: https://cviene.com/`;
-
+Fuente: cviene.com`;
     await client.v2.tweet(tweet);
     console.log('Tweeted:', tweet);
     console.log(`Votes - Se viene: ${dataFetch.seViene}, No se viene: ${dataFetch.noSeViene}, Total: ${total}`);
