@@ -1,7 +1,7 @@
 name: Hourly Tweet Bot
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 * * * *'
 
 jobs:
   tweet:
