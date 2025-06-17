@@ -90,7 +90,7 @@ function tweetPercentage() {
                         return [2 /*return*/];
                     }
                     seVienePercentage = (dataFetch.seViene / total) * 100;
-                    tweet = "Se viene en un ".concat(seVienePercentage.toFixed(2), "%.\nSe viene: ").concat(dataFetch.seViene, "\nNo se viene: ").concat(dataFetch.noSeViene, "\nTotal: ").concat(total, "\nFuente: https://cviene.com/");
+                    tweet = "Se viene en un ".concat(seVienePercentage.toFixed(2), "%.\nSe viene: ").concat(dataFetch.seViene, "\nNo se viene: ").concat(dataFetch.noSeViene, "\nFuente: cviene.com");
                     return [4 /*yield*/, client.v2.tweet(tweet)];
                 case 2:
                     _a.sent();
