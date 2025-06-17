@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "include": ["src/**/*", "dist/bot.js", "dist/db.js"],
+  "exclude": ["node_modules"]
+}
